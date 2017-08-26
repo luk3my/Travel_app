@@ -1,0 +1,104 @@
+ body {
+     font-family: 'Merriweather Sans', sans-serif;
+
+    }
+
+    .country1{
+      fill: #d3d3d3;
+      stroke: #000000;
+      stroke-width: 0.3
+    }
+    .selected{
+      fill: lightskyblue;
+    }
+
+    arc.text {
+      font: 10px Arial, Georgia, sans-serif;
+      text-anchor: middle;
+    }
+
+    .arc path {
+      stroke: #ffffff;
+    }
+
+    #DonutChart {
+   
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    #map {
+     display: flex;
+     align-items: center;
+      
+    }
+
+    h1 {
+ 
+      text-align: center;
+    }
+
+
+    .top-right {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .button {
+      background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+/* Style fo the scroll box */
+
+
+
+.marquee li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 200px;
+  
+}
+
+.scrollbox {
+  color: whitesmoke;
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#map {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leaderboard {
+  width: 33.3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leaderboard td {
+  margin-right: 20px;
+}
